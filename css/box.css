@@ -1,11 +1,4 @@
 
-
-
-
-
-
-
-
 .box1{
     display: flex;
 }
@@ -44,6 +37,31 @@
 }
 
 
+.project_btn{
+    display: flex;
+    position: relative;
+    
+}
 
+.btn{
+    width: 350px;
+    height: 70px;
+    background-color: #000;
+    border-radius: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
+.btn a{
+    line-height: 70px;
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    
+}
 
